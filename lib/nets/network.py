@@ -25,7 +25,7 @@ from layer_utils.proposal_target_layer import proposal_target_layer
 from utils.visualization import draw_bounding_boxes
 
 from layer_utils.roi_pooling.roi_pool import RoIPoolFunction
-from layer_utils.roi_align.crop_and_resize import CropAndResizeFunction
+from roi_align.crop_and_resize import CropAndResizeFunction
 
 from model.config import cfg
 
