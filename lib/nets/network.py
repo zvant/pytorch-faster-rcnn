@@ -486,5 +486,8 @@ class Network(nn.Module):
     the model trained before.
     To provide back compatibility, we overwrite the load_state_dict
     """
-    nn.Module.load_state_dict(self, {k: state_dict[k] for k in list(self.state_dict())})
+    # nn.Module.load_state_dict(self, {k: state_dict[k] for k in list(self.state_dict())})
+    nn.Module.load_state_dict(self, {
+      k: state_dict[k] for k in list(self.state_dict()) if k in state_dict
+    })
 
