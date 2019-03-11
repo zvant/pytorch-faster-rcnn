@@ -1,6 +1,6 @@
 ## Modification
 
-Fixed some bugs caused by older version of ROI_Align, make sure to compile and install it from GitHub. Tested on commit ``d85fa43dacc29704c1b93de52deef006ed7530ac``.
+Fixed some bugs caused by older version of ROI_Align, make sure to compile and install it from GitHub. Tested on commit [d85fa43](https://github.com/longcw/RoIAlign.pytorch/commit/d85fa43dacc29704c1b93de52deef006ed7530ac).
 
 ## Environment
 
@@ -26,4 +26,4 @@ Download [RoIAlign.pytorch](https://github.com/longcw/RoIAlign.pytorch). Checkou
 
 ### Faster-RCNN
 
-Compile pytorch-faster-rcnn.
+Compile pytorch-faster-rcnn according to instructions. Test its functionalities through simple object detection tasks in [testing](testing). Pretrained models are needed.
