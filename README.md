@@ -1,4 +1,4 @@
-**See instruction in FIX.md. See demo in testing.**
+**See instruction in [FIX.md](FIX.md). See demo in [testing](testing).**
 
 # Important notice:
 If you used the master branch before Sep. 26 2017 and its corresponding pretrained model, **PLEASE PAY ATTENTION**:
